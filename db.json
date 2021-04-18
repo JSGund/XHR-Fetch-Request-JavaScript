@@ -2,28 +2,28 @@
   "posts": [
     {
       "id": 1,
-      "title": "hello",
-      "path": ""
+      "title": "Angular Localization Using ngx-translate",
+      "path": "https://www.telerik.com/blogs/angular-localization-using-ngx-translate"
     },
     {
       "id": 2,
-      "title": "hello",
-      "path": ""
+      "title": "How to Use the Navigation or Shadow Property in Entity Framework Core",
+      "path": "https://www.telerik.com/blogs/how-to-use-the-navigation-or-shadow-property-in-entity-framework-core"
     },
     {
       "id": 3,
-      "title": "hello",
-      "path": ""
+      "title": "Getting Value from appsettings.json in .NET Core",
+      "path": "https://www.telerik.com/blogs/how-to-get-values-from-appsettings-json-in-net-core"
     },
     {
       "id": 4,
-      "title": "hello",
-      "path": ""
+      "title": "Embedding Beautiful Reporting into Your ASP.NET MVC Applications",
+      "path": "https://www.telerik.com/blogs/embedding-beautiful-reporting-asp-net-mvc-applications"
     },
     {
       "id": 5,
-      "title": "hello",
-      "path": ""
+      "title": "Select Tag Helper in ASP.NET Core MVC",
+      "path": "https://www.telerik.com/blogs/select-tag-helper-asp-net-core-mvc"
     }
   ],
   "profile": {
