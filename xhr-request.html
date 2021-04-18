@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>XHR Request</title>
+</head>
+<body>
+  <div>
+    <h1>Article's by Jeetendra Gund</h1>
+    <div id="blogs"></div>
+  </div>
+  <script>
+    (function(){
+
+      var xhr = new XMLHttpRequest()
+
+      xhr.open('GET', 'https://my-json-server.typicode.com/JSGund/XHR-Fetch-Request-JavaScript/posts')
+      
+      // get response here once request completes
+      xhr.onload = function() {
+        if (xhr.status != 200) {
+          console.log('Error')
+          return
+        }
+
+        var data = JSON.parse(xhr.response)
+        
+        var html = '<ol>'
+        data.forEach(function(dt){
+          html += '<li style="font-size:22px;"><a href="'+dt.path+'">'+dt.title+'</a></li>'
+        })
+        html += '</ol>'
+        
+        document.getElementById('blogs').innerHTML = html
+      }
+      xhr.onError = function() {
+        console.log('Request failed')
+      }
+
+      // send request to server
+      xhr.send();
+    })()
+  </script>
+</body>
+</html>
